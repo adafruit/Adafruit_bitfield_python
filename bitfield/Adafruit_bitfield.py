@@ -1,5 +1,5 @@
 #simple bitfield object
-class bitfield(object):
+class Adafruit_bitfield(object):
     def __init__(self, _structure):
         self._structure = _structure
         

@@ -17,7 +17,7 @@ classifiers = ['Development Status :: 4 - Beta',
                'Topic :: Software Development',
                'Topic :: System :: Hardware']
 
-setup(name              = 'bitfield',
+setup(name              = 'Adafruit-bitfield',
       version           = '1.0',
       author            = 'Dean Miller',
       author_email      = 'dean@adafruit.com',

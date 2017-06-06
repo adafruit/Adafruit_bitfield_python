@@ -1,1 +1,1 @@
-from .bitfield import *
+from .Adafruit_bitfield import *
