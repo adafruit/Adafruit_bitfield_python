@@ -18,7 +18,7 @@ classifiers = ['Development Status :: 4 - Beta',
                'Topic :: System :: Hardware']
 
 setup(name              = 'Adafruit-bitfield',
-      version           = '1.0',
+      version           = '1.1',
       author            = 'Dean Miller',
       author_email      = 'dean@adafruit.com',
       description       = 'Simple bitfield helper library.',
