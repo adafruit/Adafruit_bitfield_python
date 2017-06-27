@@ -1,9 +1,11 @@
 #simple bitfield object
+from collections import OrderedDict
+
 class Adafruit_bitfield(object):
     def __init__(self, _structure):
-        self._structure = _structure
+        self._structure = OrderedDict(_structure)
         
-        for key, value in _structure.iteritems():
+        for key, value in self._structure.iteritems():
             setattr(self, key, 0)
             
     def get(self):
